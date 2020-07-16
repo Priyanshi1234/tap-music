@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.app{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pads{
+    
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 130px;
+    width: 100px;
+    flex: auto;
+    border-radius: 20px;
+}
+
+.pad1{
+    background: lightcoral;
+}
+
+.pad2{
+    background: lightgrey;
+}
+
+.pad3{
+    background: lightsalmon;
+}
+
+.pad4{
+    background: lightgreen;
+}
+
+.pad5{
+    background: lightpink;
+}
+
+.pad6{
+    background: mediumorchid;
+}
+
+
+.pads > div {
+    height: 130px;
+    width: 100px;
+    flex: auto;
+    
+}
+
+.pads > div:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+
+@keyframes jump{
+    0%{
+        bottom: 20%;
+        left: 0%;
+    }
+    20%{
+        bottom: 50%;
+        left: 20%;
+    }
+    40%{
+        bottom: 20%;
+        left: 40%;
+    }
+    60%{
+        bottom: 50%;
+        left: 60%;
+    }
+    80%{
+        bottom: 20%;
+        left: 80%;
+    }
+    100%{
+        bottom: 50%;
+        left: 100%;
+    }
+    
+}
+
+.visual > div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+    z-index: -1;
+}
+
