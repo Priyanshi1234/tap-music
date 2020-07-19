@@ -1,62 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Tap music</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
-        <link rel="stylesheet" href="style.css" />
-        <link rel = "icon" href ="img/logo.jpg"  type = "image/x-icon" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-           
-            
-    </head>
-    <body>
-        <div class="app">
-            <div class="blur-bg">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tap music</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="blur-bg">
             <header>
                 <h1>Tap to play the music</h1>
                 <p>Make the notes with only a TAP</p>
             </header>
-            <div class="navigation">
-                <button type="button" class="btn" id="piano" onclick="pianobg()" >Piano</button>
-                <button type="button" class="btn" id="guitar" onclick="guitarbg()">Guitar</button>
-                <button type="button" class="btn" id="flute" onclick="flutebg()">Flute</button>
-                <button type="button" class="btn" id="drums" onclick="drumsbg()">Drums</button>
-                <button type="button" class="btn" id="bongos" onclick="bongosbg()">Bongos</button>
-                <button type="button" class="btn" id="guitartuner" onclick="tunerbg()">Guitar Tuner</button>
-                <button type="button" class="btn" id="xylophone" onclick="xylbg()">Xylo phone</button>
-                <button type="button" class="btn" id="chordplayer" onclick="cpbg()">Chord Player</button>
+        </div>
+        <div class="navigation">
+            <button type="button" class="btn" id="piano" onclick="pianobg()">Piano</button>
+            <button type="button" class="btn" id="guitar" onclick="guitarbg()">Guitar</button>
+            <button type="button" class="btn" id="flute" onclick="flutebg()">Flute</button>
+            <button type="button" class="btn" id="drums" onclick="drumsbg()">Drums</button>
+            <button type="button" class="btn" id="bongos" onclick="bongosbg()">Bongos</button>
+            <button type="button" class="btn" id="guitartuner" onclick="tunerbg()">Guitar Tuner</button>
+            <button type="button" class="btn" id="xylophone" onclick="xylbg()">Xylo phone</button>
+            <button type="button" class="btn" id="chordplayer" onclick="cpbg()">Chord Player</button>
 
+        </div>
+        <div id="pianodiv" class="content"></div>
+
+        <div class="visual"></div>
+       
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
             </div>
         </div>
 
+        <div id="guitardiv" class="content">
             <div class="visual"></div>
-            
-            <div id="pianodiv" class="content">   
-                <div class="pads" >
-                    <div class="pad1">
-                        <audio class="sound" src="sounds/sa.mp3"></audio>
-                    </div>
-                    <div class="pad2">
-                        <audio class="sound" src="sounds/re.mp3"></audio>
-                    </div>
-                    <div class="pad3">
-                        <audio class="sound" src="sounds/ga.mp3"></audio>
-                    </div>
-                    <div class="pad4">
-                        <audio class="sound" src="sounds/ma.mp3"></audio>
-                    </div>
-                    <div class="pad5">
-                        <audio class="sound" src="sounds/pa.mp3"></audio>
-                    </div>
-                    <div class="pad6">
-                        <audio class="sound" src="sounds/dha.mp3"></audio>
-                    </div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
                 </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="flutediv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="drumsdiv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div id="bongosdiv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div id="guitartunerdiv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div id="xylophonediv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div id="chordplayerdiv" class="content">
+            <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="sounds/sa.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="sounds/re.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="sounds/ga.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="sounds/ma.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="sounds/pa.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="sounds/dha.mp3"></audio>
+                </div>
+            </div>
         </div>
     </div>
-    
-    
+
+
     <script src="script.js"></script>
-    </body>
+</body>
+
 </html>

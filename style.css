@@ -43,7 +43,7 @@ header p{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top:200px;
+    margin-top:180px;
     position: absolute;
 
 }
@@ -59,10 +59,10 @@ header p{
 
 .blur-bg{
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;  
-    left:20%;
-    right:20%;
+    display: grid;
+    border-radius: 50px;
 }
 
 p{
@@ -107,7 +107,7 @@ p{
 
 
 .pads > div {
-    height: 130px;
+    height: 100px;
     width: 100px;
     flex: auto;
     
@@ -148,7 +148,7 @@ p{
 }
 
 .visual > div{
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 50px;
     border-radius: 50%;

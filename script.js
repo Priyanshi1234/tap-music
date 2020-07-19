@@ -49,11 +49,36 @@ $(function () {
 
 
 function pianobg() {
-    document.body.style.backgroundImage = "url(https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg)";
+    document.body.style.backgroundImage = "url(https://wallpapercave.com/wp/wp3009570.jpg)";
 }
 
 
 function guitarbg() {
-    document.body.style.backgroundImage = "url(https://www.escapehimalaya.com/wp-content/uploads/2017/07/mountain-1209497_1920-1280x600.jpg)";
+    document.body.style.backgroundImage = "url(https://i.ytimg.com/vi/r8dcwabJc1g/maxresdefault.jpg)";
+}
+
+function flutebg() {
+    document.body.style.backgroundImage = "url(https://alliancemusicacademy.com/wp-content/uploads/2014/05/Flute-Music-Paper.jpg)";
+}
+
+
+function drumsbg() {
+    document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)";
+}
+
+function bongosbg() {
+    document.body.style.backgroundImage = "url(https://i.ebayimg.com/00/s/NTE4WDEwMjQ=/z/8WQAAOSwU4hd0ZPY/$_86.JPG)";
+}
+
+function tunerbg() {
+    document.body.style.backgroundImage = "url(https://www.slashdigit.com/wp-content/uploads/2018/09/Chromatic-Guitar-Tuner.png)";
+}
+
+function xylbg() {
+    document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2016/11/23/15/36/close-up-1853572__340.jpg)";
+}
+
+function cpbg() {
+    document.body.style.backgroundImage = "url(https://wallpapercave.com/wp/wp3009570.jpg)";
 }
 
