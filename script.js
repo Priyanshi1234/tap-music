@@ -55,10 +55,6 @@ function bongosbg() {
     document.body.style.backgroundImage = "url(https://i.ebayimg.com/00/s/NTE4WDEwMjQ=/z/8WQAAOSwU4hd0ZPY/$_86.JPG)";
 }
 
-function tunerbg() {
-    document.body.style.backgroundImage = "url(https://www.slashdigit.com/wp-content/uploads/2018/09/Chromatic-Guitar-Tuner.png)";
-}
-
 function xylbg() {
     document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2016/11/23/15/36/close-up-1853572__340.jpg)";
 }
