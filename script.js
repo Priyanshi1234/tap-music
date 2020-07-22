@@ -22,7 +22,6 @@ $(function () {
     });
 });
 
-
 function pianobg() {
     document.body.style.backgroundImage = "url(https://smhttp-ssl-49071.nexcesscdn.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/3/236067421.jpg)";  
 }

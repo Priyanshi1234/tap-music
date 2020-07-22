@@ -43,11 +43,11 @@ header p{
     display: flex;
     justify-content: center;
     margin-top:190px;
-    position: absolute;
+    position: fixed;
 }
 
 .btn{
-    margin: 10px;
+    margin: 13px;
     font-size: 2vw;
     font-weight: bold;
     display: flex;
@@ -71,6 +71,9 @@ p{
 
 .btn:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 
